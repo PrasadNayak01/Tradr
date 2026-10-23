@@ -7,10 +7,13 @@ import mutualFunds from "../../../assets/images/mutualFunds.png";
 import restApi from "../../../assets/images/restApi.png";
 import mobile from "../../../assets/images/mobile.png";
 import Universe from "./Universe";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 const Products = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <ProductFeature
         image={kite}
@@ -40,6 +43,7 @@ const Products = () => {
         description="Build your investing knowledge with easy-to-follow lessons, practical market concepts, and guided learning you can access anytime, anywhere."
       />
       <Universe />
+      <Footer />
     </>
   );
 };

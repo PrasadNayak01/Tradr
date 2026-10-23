@@ -5,16 +5,20 @@ import Trust from "./Trust";
 import Pricing from "./Pricing";
 import Education from "./Education";
 import OpenAccount from "./OpenAccount";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <Awards />
       <Trust />
       <Pricing />
       <Education />
       <OpenAccount />
+      <Footer />
     </>
   );
 };
