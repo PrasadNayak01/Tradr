@@ -14,12 +14,6 @@ Tradr lets users explore Indian stock market information and practise portfolio 
 
 ---
 
-## Screenshots
-
-> Add screenshots here (landing page, dashboard, markets, stock details, watchlist).
-
----
-
 ## Features
 
 ### Landing Page
